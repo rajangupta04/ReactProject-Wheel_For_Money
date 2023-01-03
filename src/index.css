@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  }
+
+.signup{
+  /* background-color: rgb(170, 193, 212); */
+  /* max-width: 80vw; */
+  /* max-height: 90vh; */
+  margin: auto;
+  border-radius: 8px;
+}
+h1{
+  text-align: center;
+  margin: auto;
+  color: blueviolet;
+}
+.signup form{
+  background-color: rgb(231, 234, 238);
+  display: grid;
+  grid-template-columns: auto;
+
+}
+h2{
+  margin-top: -14px;
+  text-align: center;
+}
+form{
+  background-color: white;
+  width: 40%;
+  height: auto;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgb(124, 124, 124);
+}
+input{
+  display: grid;
+  width: 70%;
+  height: 30px;
+  margin: 10px auto;
+}
+form a{
+  display: block;
+  text-align: right;
+  text-decoration: none;
+}
+form a:hover{
+  text-decoration: underline;
+}
+input[type="submit"]
+{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 13px;
+  background-color: rgb(4, 44, 154);
+  width: 22%;
+  height: 30px;
+  margin: auto;
+  border: solid rgb(4, 44, 154) 1px;
+  border-radius: 5px;
+  transition: 0.2s;
+
+}
+input[type="submit"]:hover
+{
+  color: rgb(4, 44, 154);
+  background-color: white;
+  border: solid rgb(4, 44, 154) 1px;
+  transition: 0.2s;
+}
+.login-link{
+  cursor: pointer;
+}
+/* form login-link{
+  text-decoration: underline;
+  text-align: center;
+} */
+form a{
+  display: block;
+  text-align: center;
+}
+form a:hover{
+  text-decoration: underline;
+}
