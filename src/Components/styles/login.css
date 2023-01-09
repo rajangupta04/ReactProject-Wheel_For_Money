@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background:linear-gradient(45deg,#D279EE,#F8C390 );
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.loginpage{
+    height: 80vh;
+    width: 80vw;
+    border-radius: 20px;
+    background: white;
+    position: relative;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.login-img{
+   height: 100%; 
+   width: 50%;
+   background-color:white;
+   background-size: 60% 100%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   border-radius:20px 20px 20px 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+.login-img img{
+    width: 100%;
+ }
+
+.login-contentBx
+ {
+    height: 100%;
+    width: 50%;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: #ebc4a0 1px solid;
+ }
+
+.login-form{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   border-radius:0px  20px 20px 0px;
+   flex-direction:column;
+   justify-content:space-evenly;
+   align-items:center;
+ }
+
+.login-form input{
+    box-shadow: 2px 2px 20px rgba(192, 192, 192, 0.43);
+    border: white;
+    height: 8%;
+    width: 55%;
+    outline: none;
+    border-radius: 10px;
+    text-indent: 8px;
+    font-size: 20px;
+ }
+
+.btn-login{
+    height: 8%;
+    width: 22%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: larger;
+    background:linear-gradient(45deg,#D279EE,#F8C390 );
+    transition: 0.3s;
+ }
+ 
+ .btn-login:hover{
+    transition: 0.3s;
+    background:linear-gradient(-45deg,#D279EE,#F8C390 );
+    box-shadow: 0px 0px 10px rgba(94, 93, 93, 0.264);
+}
+  
+@media (max-width:768px)
+{
+    .login-img img {
+        width: 100%;
+        position: relative;
+        border-radius: 20px;
+    }
+    .login-contentBx {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        border-radius: 20px;
+    } 
+    .login-form input {
+        width: 76%;
+        border-radius: 20px;
+        outline: none;
+    }
+    .btn-login {
+        width: 76%;
+        border-radius: 53px;
+        border: none;
+        color: white;
+        font-size: x-large;
+    }
+    .login-remember {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+    }
+}  

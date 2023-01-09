@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.forgotpage{
+    height: 80vh;
+    width: 80vw;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+    position: relative;
+   margin: 50px auto;
+   margin-left: 10%;
+
+}
+
+.forgot-img{
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+}
+.forgot-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.contentBx-forgot{
+  height: 100%;
+  width: 50%;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: #ebc4a0 1px solid;
+
+}
+.forgot-form{  
+        height: 100%;
+        width: 100%;
+        display: flex;
+        border-radius:0px  20px 20px 0px;
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+       
+    }
+    
+.forgot-form input{
+    box-shadow: 2px 2px 20px rgba(94, 93, 93, 0.252);
+    border-color: white;
+    border: 0px;
+    padding: 0;
+    width: 55%;
+    height: 8%;
+    text-indent: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.btn-fogot{
+    height: 8%;
+    width: 22%;
+    border-radius: 10px;
+    margin-top: 8%;
+    border: none;
+    color: white;
+    font-size: larger;
+    box-shadow: 2px 2px 20px rgba(94, 93, 93, 0.516);
+    background:linear-gradient(45deg,#D279EE,#F8C390 );
+}
+
+.btn-fogot:hover{
+    transition: 0.3s;
+    background:linear-gradient(-45deg,#D279EE,#F8C390 );
+    box-shadow: 0px 0px 10px rgba(94, 93, 93, 0.264);
+}
+
+
+@media (max-width:768px)
+{
+    .forgot-img img {
+        height: 50%;
+        width: 100%;
+        position: absolute;
+        border-radius: 20px;
+    }
+    .contentBx-forgot {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        border-radius: 20px;
+    } 
+    .forgot-form input {
+        width: 76%;
+        border-radius: 20px;
+        outline: none;
+    }
+
+    .btn-fogot{
+        width: 76%;
+        border-radius: 53px;
+        border: none;
+        color: white;
+        font-size: x-large;
+    }
+}  
